@@ -1,38 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;700&display=swap');
+
+
 .App {
-  text-align: center;
+  font-size: 16px;
+  font-family: 'Heebo', sans-serif;
+  background-image: url(./assets/index-background-extended.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+p{
+  margin: 0;
+  padding: 0;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+a{
+  text-decoration: none;
+  color: black;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.nav-bar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.6rem 1.2rem 0 1.7rem;
+}
+
+.nav-bar-left{
+  font-weight: 500;
+  font-size: 1.2rem;
+}
+
+.nav-bar-right{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 1vw;
+}
+
+.nav-bar-right > a{
+  margin-right: 0.5rem;
+}
+
+.nav-bar-right > *{
+  font-size: 0.7rem;
+}
+
+
+.nav-search-bar{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  opacity: 50%;
+  border-radius: 50rem;
+  width: 9rem;
+  height: 1.7rem;
+  padding: 0 0.9rem;
+}
+
+#input-search{
+  font-size: 0.6rem;
+  border-style: none;
+  background-color: transparent;
+}
+
+#input-search:focus{
+  outline: none;
+}
+
+.nav-profile-img{
+  height: 1.7rem;
+  width: 1.7rem;
+  border-radius: 50rem;
+  background-color: white;
+}
+
+.container-title-content{
   display: flex;
   flex-direction: column;
-  align-items: center;
+  width: fit-content;
+  gap: 0.2rem;
+  margin: 4.6rem 0 0 6rem;
+  padding-bottom: 6rem;
+}
+
+.title-content-top{
+  display: flex;
+  flex-direction: column;
+}
+
+.title{
+  font-weight: 900;
+  font-size: 1.9rem; 
+}
+
+.subtitle{
+  margin-top: -2%;
+  font-weight: 500;
+  font-size: 1.25rem;
+}
+
+.title-content-bottom{
+  width: 65%;
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+}
+.btn-style-1, .btn-style-2, .btn-style-3{
+  border-radius: 50rem;
+  border-style: solid;
+  padding: 0rem 2rem;
+  height: 2.3rem;
+  font-size: 0.7rem;
+}
+
+.btn-style-2, .btn-style-3{
+  width: 50%;
+}
+
+.btn-style-1{
+  display: flex;
+  flex-direction: row;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  align-items: center;
+  gap: 0.5rem;
+  background-color: white;
+  border-color: white;
+}
+
+.btn-style-2{
+  background-color: black;
+  border-color: black;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.btn-style-3{
+  background-color: transparent;
+  border-color: black;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+
+
+.container-buttons-lg-su{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 1%;
+}
+
+
+.steam-logo-img{
+  height: 1.2rem;
 }
