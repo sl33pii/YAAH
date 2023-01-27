@@ -5,8 +5,9 @@
   font-size: 16px;
   font-family: 'Heebo', sans-serif;
   background-image: url(./assets/index-background-extended.jpg);
-  background-size: 100%;
+  background-size: 102%;
   background-repeat: no-repeat;
+  margin: 0;
 }
 
 p{
@@ -24,19 +25,19 @@ a{
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  padding: 0.6rem 1.2rem 0 1.7rem;
+  padding: 1rem 1.2rem 0 2rem;
 }
 
 .nav-bar-left{
   font-weight: 500;
-  font-size: 1.2rem;
+  font-size: 1.7rem;
 }
 
 .nav-bar-right{
   display: flex;
   flex-direction: row;
   align-items: center;
-  gap: 1vw;
+  gap: 2vw;
 }
 
 .nav-bar-right > a{
@@ -44,36 +45,41 @@ a{
 }
 
 .nav-bar-right > *{
-  font-size: 0.7rem;
+  font-size: 1rem;
 }
 
 
 .nav-search-bar{
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: space-evenly;
   align-items: center;
   background-color: white;
   opacity: 50%;
   border-radius: 50rem;
-  width: 9rem;
-  height: 1.7rem;
-  padding: 0 0.9rem;
+  width: 13rem;
+  height: 2.5rem;
+  padding: 0 0.9rem 0 1rem;
 }
 
 #input-search{
-  font-size: 0.6rem;
+  font-size: 0.8rem;
   border-style: none;
   background-color: transparent;
+  margin-top: 0.1rem;
 }
 
 #input-search:focus{
   outline: none;
 }
 
+.nav-search-icon{
+  margin-top: -0.1rem;
+}
+
 .nav-profile-img{
-  height: 1.7rem;
-  width: 1.7rem;
+  height: 2.5rem;
+  width: 2.5rem;
   border-radius: 50rem;
   background-color: white;
 }
@@ -83,7 +89,7 @@ a{
   flex-direction: column;
   width: fit-content;
   gap: 0.2rem;
-  margin: 4.6rem 0 0 6rem;
+  margin: 7rem 0 0 9rem;
   padding-bottom: 6rem;
 }
 
@@ -94,13 +100,13 @@ a{
 
 .title{
   font-weight: 900;
-  font-size: 1.9rem; 
+  font-size: 2.5rem; 
 }
 
 .subtitle{
   margin-top: -2%;
   font-weight: 500;
-  font-size: 1.25rem;
+  font-size: 1.85rem;
 }
 
 .title-content-bottom{
@@ -113,8 +119,8 @@ a{
   border-radius: 50rem;
   border-style: solid;
   padding: 0rem 2rem;
-  height: 2.3rem;
-  font-size: 0.7rem;
+  height: 3.2rem;
+  font-size: 1rem;
 }
 
 .btn-style-2, .btn-style-3{
@@ -153,5 +159,29 @@ a{
 
 
 .steam-logo-img{
-  height: 1.2rem;
+  height: 1.7rem;
+}
+
+.container-game-list{
+  margin-top: -2rem;
+  padding: 0 2rem;
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+  flex-wrap: wrap;
+  height: fit-content;
+  gap: 2rem;
+}
+
+.game-title{
+  height: 20rem;
+  width: 20rem;
+  border-radius: 1.6rem;
+  background-color: black;
+}
+
+.glist-row-1{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }

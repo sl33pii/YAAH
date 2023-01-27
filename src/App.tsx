@@ -5,7 +5,6 @@ import { library } from '@fortawesome/fontawesome-svg-core'
 import { fab } from '@fortawesome/free-brands-svg-icons'
 import { faSearch } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import bgPic from "./assets/index-background.jpg"
 import steamLogo from "./assets/steam-logo.png"
 library.add(fab, faSearch)
 
@@ -38,9 +37,14 @@ function App() {
         </div>
       </div>
       <div className='container-game-list'>
-          <ul>
-              
-          </ul>
+          <div className='game-title glist-item-1'></div>
+          <div className='game-title glist-item-2'></div>
+          <div className='game-title glist-item-3'></div>
+          <div className='game-title glist-item-4'></div>
+          <div className='game-title glist-item-5'></div>
+          <div className='game-title glist-item-6'></div>
+          <div className='game-title glist-item-7'></div>
+          <div className='game-title glist-item-8'></div>
       </div>
     </div>
   );
