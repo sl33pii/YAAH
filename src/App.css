@@ -24,6 +24,7 @@
   color: white;
 }
 
+<<<<<<< Updated upstream
 .App-link {
   color: #61dafb;
 }
@@ -36,3 +37,56 @@
     transform: rotate(360deg);
   }
 }
+=======
+.btn-style-3{
+  background-color: transparent;
+  border-color: black;
+}
+
+
+
+.container-buttons-lg-su{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 1%;
+}
+
+
+.steam-logo-img{
+  height: 1.7rem;
+}
+
+.container-game-list{
+  margin-top: -2rem;
+  height: fit-content;
+}
+
+.container-game-list > div{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  gap: 1rem;  
+}
+
+.game-list-row-1{
+  padding: 0 0.2rem;
+}
+
+.game-list-row-1 > div {
+  background: rgb(0,0,0);
+  background: linear-gradient(180deg, rgba(0,0,0,1) 52%, rgba(255,255,255,1) 100%);
+}
+
+.game-list-row-2{
+  margin: -5rem -5rem;
+  overflow: hidden;
+}
+
+.game-title{
+  height: 21rem;
+  width: 21rem;
+  border-radius: 1.6rem;
+  background-color: black;
+}
+>>>>>>> Stashed changes
