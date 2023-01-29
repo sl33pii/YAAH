@@ -1,0 +1,10 @@
+.container-game-list {
+  margin-top: -2rem;
+  padding: 0 2rem;
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+  flex-wrap: wrap;
+  height: fit-content;
+  gap: 2rem;
+}

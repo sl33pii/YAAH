@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;700&display=swap');
+
+
+.App {
+  font-size: 16px;
+  font-family: 'Heebo', sans-serif;
+  background-image: url(../../assets/index-background-extended.jpg);
+  background-size: 102%;
+  background-repeat: no-repeat;
+  margin: 0;
+}
+
+p{
+  margin: 0;
+  padding: 0;
+}
+
+a{
+  text-decoration: none;
+  color: black;
+}
+
+
+.container-title-content{
+  display: flex;
+  flex-direction: column;
+  width: fit-content;
+  gap: 0.2rem;
+  margin: 7rem 0 0 9rem;
+  padding-bottom: 6rem;
+}
+
+.title-content-top{
+  display: flex;
+  flex-direction: column;
+}
+
+.title{
+  font-weight: 900;
+  font-size: 2.5rem; 
+}
+
+.subtitle{
+  margin-top: -2%;
+  font-weight: 500;
+  font-size: 1.85rem;
+}
+
+.title-content-bottom{
+  width: 65%;
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+}
+.btn-style-1, .btn-style-2, .btn-style-3{
+  border-radius: 50rem;
+  border-style: solid;
+  padding: 0rem 2rem;
+  height: 3.2rem;
+  font-size: 1rem;
+}
+
+.btn-style-2, .btn-style-3{
+  width: 50%;
+}
+
+.btn-style-1{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+  background-color: white;
+  border-color: white;
+}
+
+.btn-style-2{
+  background-color: black;
+  border-color: black;
+  color: white;
+}
+
+.btn-style-3{
+  background-color: transparent;
+  border-color: black;
+}
+
+
+
+.container-buttons-lg-su{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 1%;
+}
+
+
+.steam-logo-img{
+  height: 1.7rem;
+}
+
+
+.glist-row-1{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
