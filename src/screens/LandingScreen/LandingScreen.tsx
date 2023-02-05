@@ -2,11 +2,11 @@ import steamLogo from "../../assets/steam-logo.png"
 import './Styles.css';
 import NavBar from "../../components/NavBar/NavBar";
 import GameLists from "../../components/GameLists/GameLists";
-import Game from "../../components/Game/Game";
+import { IGame } from "../../components/Game/Game";
 
 export default function LandingScreen() {
-	const game1 = {id: 1, name: "Game 1", logo: steamLogo};
-	const games = { game1 };
+	const game1 : IGame = {id: 1, name: "Game 1", logo: steamLogo};
+	const games  =  [game1];
 	return (
 		<div className="App">
 			<NavBar />
@@ -27,7 +27,7 @@ export default function LandingScreen() {
 					</div>
 				</div>
 			</div>
-				<GameLists games={ [game1] } />
+				<GameLists games={games}/>
 		</div>
 	);
 }

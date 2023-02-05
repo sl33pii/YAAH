@@ -1,10 +1,17 @@
 import  Game, { IGame } from  '../Game/Game' ;
 import './Styles.css';
 
-const GameLists = ({games}) => {
+interface IGameLists {
+	games: Array<IGame>,
+}
+
+const GameLists = (props: IGameLists) => {
+	const gamesList = props.games.map((game) => {
+		return <Game id={game.id} name={game.name} logo={game.logo}/>
+	})
 	return (
 		<div className='container-game-list'>
-			{games?.map((game: IGame) => Game(game) ) }
+			{gamesList}
 		</div>
 	);
 };
